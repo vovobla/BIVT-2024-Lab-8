@@ -144,7 +144,7 @@ period, believed to be around 1603.
 </pre>
 
 <pre>
-По
+ос
 </pre>
 
 **Output:**
@@ -158,7 +158,7 @@ period, believed to be around 1603.
 </pre>
 
 <pre>
-Дв
+ви
 </pre>
 
 **Output:**
@@ -172,7 +172,7 @@ period, believed to be around 1603.
 </pre>
 
 <pre>
-1 
+ и
 </pre>
 
 **Output:**
@@ -186,7 +186,7 @@ period, believed to be around 1603.
 </pre>
 
 <pre>
-Фь
+ьо
 </pre>
 
 **Output:**
@@ -200,7 +200,7 @@ William Shakespeare, widely regarded as one of the greatest writers in the Engli
 </pre>
 
 <pre>
-Wi
+il
 </pre>
 
 **Output:**
@@ -214,7 +214,7 @@ Shakespeare, widely regarded as one of the greatest writers in the English langu
 </pre>
 
 <pre>
-Пе
+ер
 </pre>
 
 **Output:**

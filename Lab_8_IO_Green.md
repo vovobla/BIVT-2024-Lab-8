@@ -276,7 +276,7 @@ a, t, w, o, i, d, e, p, b, h, m, r, s, c, j, l, f, g, n, y
 </pre>
 
 <pre>
-По
+ос
 </pre>
 
 **Output:**
@@ -297,7 +297,7 @@ a, t, w, o, i, d, e, p, b, h, m, r, s, c, j, l, f, g, n, y
 </pre>
 
 <pre>
-Дв
+ви
 </pre>
 
 **Output:**
@@ -313,7 +313,7 @@ a, t, w, o, i, d, e, p, b, h, m, r, s, c, j, l, f, g, n, y
 </pre>
 
 <pre>
-1 
+ и
 </pre>
 
 **Output:**
@@ -327,7 +327,7 @@ a, t, w, o, i, d, e, p, b, h, m, r, s, c, j, l, f, g, n, y
 </pre>
 
 <pre>
-Фь
+ьо
 </pre>
 
 **Output:**
@@ -343,7 +343,7 @@ William Shakespeare, widely regarded as one of the greatest writers in the Engli
 </pre>
 
 <pre>
-Wi
+il
 </pre>
 
 **Output:**
@@ -357,7 +357,7 @@ william
 </pre>
 
 <pre>
-Пе
+ер
 </pre>
 
 **Output:**
