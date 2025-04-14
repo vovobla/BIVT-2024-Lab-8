@@ -58,9 +58,9 @@ namespace Lab_8 {
             string result = "";
             
             for (int i = 0; i < _output.Length; ++i) {
-                result += $"{_output[i].Item1} - {_output[i].Item2:f4}";
+                result += $"{_output[i].Item1} - {_output[i].Item2:F4}";
                 if (i + 1 < _output.Length) {
-                    result += "\n";
+                    result += Environment.NewLine;
                 }
             }
 
