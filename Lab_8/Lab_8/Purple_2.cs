@@ -59,7 +59,7 @@ namespace Lab_8
         {
             if (_output == null) return null;
 
-            return string.Join("\n", _output);
+            return string.Join(Environment.NewLine, _output);
         }
     }
 }
