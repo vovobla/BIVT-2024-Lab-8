@@ -43,13 +43,20 @@ namespace Lab_8
             {
                 currentLine += words[i] + " ";
 
-                if (i == words.Length - 1 || currentLine.Length + words[i + 1].Length > required_length)
+                if (i + 1 < words.Length && currentLine.Length + words[i + 1].Length > required_length)
                 {
                     string aligned = AlignLine(currentLine);
                     Array.Resize(ref lines, lines.Length + 1);
                     lines[lines.Length - 1] = aligned;
                     currentLine = "";
                 }
+            }
+
+            if (!string.IsNullOrEmpty(currentLine))
+            {
+                string aligned = AlignLine(currentLine);
+                Array.Resize(ref lines, lines.Length + 1);
+                lines[lines.Length - 1] = aligned;
             }
 
             _output = lines;
