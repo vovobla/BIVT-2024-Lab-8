@@ -51,6 +51,20 @@ namespace Lab_8
 
             for (int i = 0; i < words.Length; i++)
             {
+                bool hasDigit = false;
+
+                foreach (char s in words[i])
+                {
+                    if (char.IsDigit(s))
+                    {
+                        hasDigit = true;
+                        break;
+                    }
+                }
+
+                if (hasDigit)
+                    continue;
+
                 words[i] = Reverse(words[i]);
             }
 
