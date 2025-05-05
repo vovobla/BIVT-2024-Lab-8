@@ -10,7 +10,18 @@ namespace Lab_8
     {
         private const int required_length = 50; //символов
         private string[] _output;
-        public string[] Output => _output;
+        public string[] Output
+        {
+            get
+            {
+                if (_output == null)
+                    return null;
+
+                string[] copy = new string[_output.Length];
+                Array.Copy(_output, copy, _output.Length);
+                return copy;
+            }
+        }
 
         public Purple_2(string input) : base(input) { }
 
